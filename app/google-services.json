@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "766603031000",
+    "firebase_url": "https://pranam555-5dd6d-default-rtdb.firebaseio.com",
+    "project_id": "pranam555-5dd6d",
+    "storage_bucket": "pranam555-5dd6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766603031000:android:7567560e97f07ddcc3c2ad",
+        "android_client_info": {
+          "package_name": "com.example.pranam555"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766603031000-4rmqaab9bbdjc6r3tg024s3thsiv1883.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pranam555",
+            "certificate_hash": "0426417c005a4536747d5487d9ca4974688e0de5"
+          }
+        },
+        {
+          "client_id": "766603031000-sqpseppllq3dgk3uadghjktmu8aijo42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pranam555",
+            "certificate_hash": "9ae1b1d5730ce4f6d9729f5774cb84695d7d6466"
+          }
+        },
+        {
+          "client_id": "766603031000-vj9qgp9mqrh53k82emarlqm79olgdhnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pranam555",
+            "certificate_hash": "e5754f58e1d9f81b7cdb343fd6115ed508906270"
+          }
+        },
+        {
+          "client_id": "766603031000-7vogopvnii7jklelovvh29cpgfsjnfvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7ip1X3gQggk-5EKD1PvhY3YEWF0SYvM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766603031000-7vogopvnii7jklelovvh29cpgfsjnfvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766603031000:android:e838384f06ff1fffc3c2ad",
+        "android_client_info": {
+          "package_name": "deepak.packag.pranam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766603031000-7vogopvnii7jklelovvh29cpgfsjnfvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7ip1X3gQggk-5EKD1PvhY3YEWF0SYvM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766603031000-7vogopvnii7jklelovvh29cpgfsjnfvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

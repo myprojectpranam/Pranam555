@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="2dp"
+    app:contentPadding="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/users_profile_image_find_friends"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/profile_image" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/txt_user_profile_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="user name"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/txt_user_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="user status"
+                    android:textAlignment="textStart"
+                    android:textSize="16sp" />
+
+
+
+            </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/img_user_online_status"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:src="@drawable/online"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

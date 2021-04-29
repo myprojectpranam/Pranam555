@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pranam555.MainActivity">
+
+    <item
+        android:title="Find Friends"
+        android:id="@+id/find_friends"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:title="Settings"
+        android:id="@+id/settings"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:visible="false"/>
+
+
+    <item
+        android:title="Create group"
+        android:id="@+id/Create_Group"
+        app:showAsAction="always"
+        android:icon="@drawable/create_group_green"
+        android:visible="false"/>
+
+    <item
+        android:title="Add Group Participant"
+        android:id="@+id/add_Participant"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_person_greeen"
+        android:visible="false"/>
+
+    <item
+        android:title="GroupInfo"
+        android:id="@+id/group_info"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_info_greeen"
+        android:visible="false"/>
+
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        app:showAsAction="always"
+        android:icon="@drawable/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:visible="false"/>
+
+
+
+
+</menu>

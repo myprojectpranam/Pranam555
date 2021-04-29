@@ -1,0 +1,5 @@
+include ':sinch-android-rtc-3.17.5'
+include ':sinch-android-rtc-3.17.5'
+rootProject.name='Pranam555'
+include ':app'
+

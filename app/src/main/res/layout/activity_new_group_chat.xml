@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NewGroupChatActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/group_chat_activity_toolbar"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#ff0000"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/groupChatIcon"
+                android:layout_centerVertical="true"
+                android:src="@drawable/group_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtGroupChatTitle"
+                android:layout_toEndOf="@id/groupChatIcon"
+                android:text="Group Title"
+                android:layout_marginStart="10dp"
+                android:layout_centerVertical="true"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/groupChatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:stackFromEnd="true"
+        android:layout_below="@id/group_chat_activity_toolbar"
+        android:layout_above="@id/groupChatLayout"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/row_groupchat_left"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/groupChatLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true">
+
+
+
+        <ImageButton
+            android:id="@+id/imgAttachFile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:src="@drawable/send_files"/>
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtGroupChatMessages"
+            android:hint="Start Typing..."
+            android:inputType="textCapSentences|textMultiLine"
+            android:layout_weight="1"
+            android:background="@null" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/send_message"
+            android:background="@null"
+            android:id="@+id/btnSendGroupChatMessage"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
